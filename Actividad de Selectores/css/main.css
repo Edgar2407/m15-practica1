@@ -1,9 +1,8 @@
 /* Todos los elementos de la pagina */
 *{
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'comic sans ms', cursive, sans-serif;
 }
-
 /* Todos los parrafos de la pagina */
 p{
    color: blue;
@@ -16,7 +15,7 @@ p{
 
 /* Todos los enlaces la pagina */
 a{
-  color: black;
+  color: rgb(0, 255, 55);
 }
 
 /* Los elementos "em" contenidos en "primero" */
@@ -32,4 +31,16 @@ a{
 /* Elementos "span" contenidos en la clase normal */
 .normal{
   font-weight: bold;
+}
+/* Cambia el color cuando el enlace está seleccionado (focus) */
+a:hover {
+    color: orange;
+}
+/* Cambia el color cuando el enlace está al hacer clic */
+a:active {
+    color: rgb(242, 255, 0);
+}
+/* Cambia el color cuando el enlace ha sido visitado */
+a:visited {
+    color: purple;
 }

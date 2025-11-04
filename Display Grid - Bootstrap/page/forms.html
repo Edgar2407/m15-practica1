@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+    <div class="container">
+            <a class="navbar-brand" href="../index.html">Datos sobre Sherma</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="text-white text-decoration-none mx-3" href="#"> </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container2" style="max-width: 600px; margin-top: 50px;">
+            <div class="row">
+                <div class="col bg-dark rounded p-4">
+                    <h2 class="text-white mb-4">Formulario de Contacto</h2>
+                    <form action="https://formspree.io/f/xovpoyaa" 
+                         method="POST"
+                         >
+                            <form class="was-validate">
+
+                                <div class="mb-3 bg-dark rounded">
+                                    <label for="name" class="form-label">Nombre:</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Introdue tu Nombre" name="name"required>
+                                </div>
+                                <div class="mb-3 mt-3 bg-dark rounded">
+                                    <label for="email" class="form-label">Correo Electronico:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Inroduce tu correo Electronico" name="email"required>
+                                </div>
+                                <div class="mb-3 bg-dark rounded">
+                                    <label for="tel" class="form-label">Telefono:</label>
+                                    <input type="tel" class="form-control" id="tel" placeholder="Introduce tu numero de telefono" name="tel"required>
+                                </div>
+                                <div class="form-check mb-3 bg-dark rounded">
+                                    <label form="textarea" class="form-label">Mensaje:</label>
+                                    <textarea class="form-control" id="textarea" rows="4" placeholder="Escribe tu mensaje aqui"required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<footer class="bg-dark text-white text-center rounded p-3">
+© 2025 Institut Barres i Ones 
+</footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
